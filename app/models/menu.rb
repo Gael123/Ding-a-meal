@@ -1,4 +1,4 @@
-class Meal < ApplicationRecord
+class Menu < ApplicationRecord
   belongs_to :restaurant
   belongs_to :user
   validates :name, presence: { message:
